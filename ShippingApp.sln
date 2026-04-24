@@ -1,0 +1,56 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.5.11709.299 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingApp.API", "ShippingApp.API\ShippingApp.API.csproj", "{A1B2C3D4-0001-0001-0001-000000000001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingApp.Business", "ShippingApp.Business\ShippingApp.Business.csproj", "{A1B2C3D4-0001-0001-0001-000000000002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingApp.Data", "ShippingApp.Data\ShippingApp.Data.csproj", "{A1B2C3D4-0001-0001-0001-000000000003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingApp.Models", "ShippingApp.Models\ShippingApp.Models.csproj", "{A1B2C3D4-0001-0001-0001-000000000004}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{F088D211-46B9-463F-AA33-BCF640A38E2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{72D7BAA1-E411-46C4-AB67-A800C94017A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{E926A9CC-D312-4AE8-85D6-6509AFE0ADC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{CD1897F1-745F-44DC-8F55-C72E4BFE3C8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1B2C3D4-0001-0001-0001-000000000001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0001-0001-0001-000000000001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0001-0001-0001-000000000001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0001-0001-0001-000000000001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-0001-0001-0001-000000000002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0001-0001-0001-000000000002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0001-0001-0001-000000000002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0001-0001-0001-000000000002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-0001-0001-0001-000000000003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0001-0001-0001-000000000003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0001-0001-0001-000000000003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0001-0001-0001-000000000003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-0001-0001-0001-000000000004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-0001-0001-0001-000000000004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-0001-0001-0001-000000000004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-0001-0001-0001-000000000004}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1B2C3D4-0001-0001-0001-000000000001} = {F088D211-46B9-463F-AA33-BCF640A38E2C}
+		{A1B2C3D4-0001-0001-0001-000000000002} = {72D7BAA1-E411-46C4-AB67-A800C94017A8}
+		{A1B2C3D4-0001-0001-0001-000000000003} = {E926A9CC-D312-4AE8-85D6-6509AFE0ADC0}
+		{A1B2C3D4-0001-0001-0001-000000000004} = {CD1897F1-745F-44DC-8F55-C72E4BFE3C8C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FACD8328-AF0C-4F9F-BBE7-6F340CA36CC8}
+	EndGlobalSection
+EndGlobal
